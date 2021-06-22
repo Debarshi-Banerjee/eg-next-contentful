@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T12:16:32.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" version="14.7.7" etag="G_1OHSA_ktTgQFl6NsnC" type="github"><diagram id="aNkAg4QUc68grZBY7BTt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-22T12:31:49.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="T1VTx2l7mGqWWnM80QN7" version="14.7.7" type="github">
+  <diagram id="aNkAg4QUc68grZBY7BTt" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-1" value="BuildApp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e0Ur5RgyYTAECch3bVQd-2" target="e0Ur5RgyYTAECch3bVQd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-2" value="Fetch ContentfulData using SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e0Ur5RgyYTAECch3bVQd-6" target="e0Ur5RgyYTAECch3bVQd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-6" value="Fetch Community Data using API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e0Ur5RgyYTAECch3bVQd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-7" value="Transformation Layer +&lt;br&gt;Mutation Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="e0Ur5RgyYTAECch3bVQd-1" target="e0Ur5RgyYTAECch3bVQd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="e0Ur5RgyYTAECch3bVQd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="280" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-16" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="e0Ur5RgyYTAECch3bVQd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-22" value="API call to lamda with Id and filters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-23" value="Returns clean and mutated data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="260" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-24" value="Using ID and Filters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-25" value="Using ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-28" value="Converts the contentful data to clean data + add community data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-29" value="ETag + Cahing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="120" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-30" value="Idea is not to expose accessToken and space id in buildSide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-31" value="API Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e0Ur5RgyYTAECch3bVQd-32" value="As for security reasons" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="330" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
